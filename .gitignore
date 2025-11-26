@@ -1,0 +1,39 @@
+# Environment configuration - NEVER commit credentials
+.env
+.env.local
+.env.*.local
+
+# Python cache files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Log files - contain execution history
+*.log
+website_sequence_optimization.log
+
+# JSON reports - can be large and contain sensitive data
+website_sequence_report_*.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS files
+Thumbs.db
+desktop.ini
+
+-gitignore
+CLAUDE.md

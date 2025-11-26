@@ -1,0 +1,8 @@
+# Odoo Website Sequence Optimizer - Python Dependencies
+# Python 3.7+
+
+# Environment configuration - .env file loading
+python-dotenv>=1.0.0
+
+# Note: xmlrpc.client is part of Python standard library
+# No additional installation needed for XML-RPC functionality
